@@ -10,7 +10,9 @@ Bring deine Ergebnise zum nächsten Mal mit und stelle das HTML-Element deinen K
 
 ### HTML Elemente
 
-`ul`: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ul
+`ul` und `ol`:
+- https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ul
+- https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ol
 
 `p` und `br`:
 - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/p
