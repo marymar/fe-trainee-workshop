@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Picture Element verwenden</title>
+</head>
+  <style>
+    body {
+      margin: 0;
+    }
+    img {
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+    }
+  </style>
+<body>
+
+  <picture>
+    <source srcset="https://unsplash.it/1640/1425/?image=21" media="(min-width: 1200px)" />
+    <source srcset="https://unsplash.it/1640/1425/?image=10" media="(min-width: 600px)" />
+    <img src="https://unsplash.it/1640/1425/?image=1" alt="Beispielbild" />
+  </picture>
+
+</body>
+</html>
